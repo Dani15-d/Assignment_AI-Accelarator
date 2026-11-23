@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Datasets (Large binary archives; download via download_data.py)
+data/
+*.tar.gz
+*.gz
+
+# Model Checkpoints (Large binary weights; regenerated via scripts)
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# System & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Matplotlib cache
+.matplotlib/
+/tmp/matplotlib/
